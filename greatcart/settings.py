@@ -67,6 +67,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 # use this menu in every templates
                 'category.context_processors.menu_links',
+                'cart.context_processors.counter',
             ],
         },
     },
